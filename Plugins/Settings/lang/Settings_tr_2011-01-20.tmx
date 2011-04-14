@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4"><header creationtool="net.sf.okapi.steps.leveraging.LeveragingStep" creationtoolversion="" segtype="sentence" o-tmf="undefined" adminlang="en" srclang="en" datatype="undefined"></header><body>
+<tu tuid="Settings">
+<tuv xml:lang="tr" creationid="MT!"><seg>Ayarlar</seg></tuv>
+</tu>
+<tu tuid="Save settings">
+<tuv xml:lang="tr" creationid="MT!"><seg>Kaydet</seg></tuv>
+</tu>
+<tu tuid="Version">
+<tuv xml:lang="tr" creationid="MT!"><seg>Versiyon</seg></tuv>
+</tu>
+<tu tuid="GameUrl">
+<tuv xml:lang="tr" creationid="MT!"><seg>Oyun adresi</seg></tuv>
+</tu>
+<tu tuid="Show tray msg">
+<tuv xml:lang="tr" creationid="MT!"><seg>İşlem mesajı göster</seg></tuv>
+</tu>
+<tu tuid="Show time in logs">
+<tuv xml:lang="tr" creationid="MT!"><seg>Saati Görmek için</seg></tuv>
+</tu>
+<tu tuid="Bot restart interval (sec)">
+<tuv xml:lang="tr" creationid="MT!"><seg>Bot yeniden başlatma (Sn)</seg></tuv>
+</tu>
+<tu tuid="Show api exec in log">
+<tuv xml:lang="tr" creationid="MT!"><seg>Bor sistem mesajı göster</seg></tuv>
+</tu>
+<tu tuid="Choose timezone">
+<tuv xml:lang="tr" creationid="MT!"><seg>Dünya saatleri</seg></tuv>
+</tu>
+<tu tuid="Choose language">
+<tuv xml:lang="tr" creationid="MT!"><seg>Dil seçin</seg></tuv>
+</tu>
+<tu tuid="Proxy settings">
+<tuv xml:lang="tr" creationid="MT!"><seg>Proxy ayarları</seg></tuv>
+</tu>
+<tu tuid="Use proxy">
+<tuv xml:lang="tr" creationid="MT!"><seg>Proxy Ayarı kullan</seg></tuv>
+</tu>
+<tu tuid="Host">
+<tuv xml:lang="tr" creationid="MT!"><seg>Host</seg></tuv>
+</tu>
+<tu tuid="Port">
+<tuv xml:lang="tr" creationid="MT!"><seg>Port</seg></tuv>
+</tu>
+<tu tuid="User">
+<tuv xml:lang="tr" creationid="MT!"><seg>Kullanıcı</seg></tuv>
+</tu>
+<tu tuid="Password">
+<tuv xml:lang="tr" creationid="MT!"><seg>Şifre</seg></tuv>
+</tu>
+<tu tuid="1">
+<tuv xml:lang="tr" creationid="MT!"><seg>1</seg></tuv>
+</tu>
+<tu tuid="1">
+<tuv xml:lang="tr" creationid="MT!"><seg>1</seg></tuv>
+</tu>
+<tu tuid="en">
+<tuv xml:lang="tr" creationid="MT!"><seg>İngilizce</seg></tuv>
+</tu>
+<tu tuid="de">
+<tuv xml:lang="tr" creationid="MT!"><seg>Almanca</seg></tuv>
+</tu>
+<tu tuid="es">
+<tuv xml:lang="tr" creationid="MT!"><seg>İspanyolca</seg></tuv>
+</tu>
+<tu tuid="fr">
+<tuv xml:lang="tr" creationid="MT!"><seg>Fransızca</seg></tuv>
+</tu>
+<tu tuid="tr">
+<tuv xml:lang="tr" creationid="MT!"><seg>Türkçe</seg></tuv>
+</tu>
+<tu tuid="it">
+<tuv xml:lang="tr" creationid="MT!"><seg>İtalyanca</seg></tuv>
+</tu>
+<tu tuid="pt">
+<tuv xml:lang="tr" creationid="MT!"><seg>Portekizce</seg></tuv>
+</tu>
+<tu tuid="nl">
+<tuv xml:lang="tr" creationid="MT!"><seg>Hollandaca</seg></tuv>
+</tu>
+<tu tuid="da">
+<tuv xml:lang="tr" creationid="MT!"><seg>Dansk</seg></tuv>
+</tu>
+<tu tuid="nb">
+<tuv xml:lang="tr" creationid="MT!"><seg>Norsk</seg></tuv>
+</tu>
+<tu tuid="pl">
+<tuv xml:lang="tr" creationid="MT!"><seg>Polski</seg></tuv>
+</tu>
+</body>
+</tmx>

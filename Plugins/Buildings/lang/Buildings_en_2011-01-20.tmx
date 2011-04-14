@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+   <header creationtoolversion="1.0.0" datatype="winres" segtype="sentence"
+           adminlang="en" srclang="en" o-tmf="abc"
+           creationtool="manual" >
+   </header>
+   <body>
+       <tu tuid='Version'>
+           <tuv xml:lang="en"><seg>Version</seg></tuv>
+       </tu>
+       <tu tuid='Buildings'>
+           <tuv xml:lang="en"><seg>Buildings &#40;by 12Christiaan&#41;</seg></tuv>
+       </tu>
+       <tu tuid='Collect rent'>
+           <tuv xml:lang="en"><seg>Collect rent from houses</seg></tuv>
+       </tu>
+       <tu tuid='Collect business buildings'>
+           <tuv xml:lang="en"><seg>Collect business buildings</seg></tuv>
+       </tu>
+       <tu tuid='Supply business buildings'>
+           <tuv xml:lang="en"><seg>Supply business buildings</seg></tuv>
+       </tu>
+       <tu tuid='Make business building instant ready'>
+           <tuv xml:lang="en"><seg>Make business building instant ready &#40;Before collection &#38; after supply&#41;</seg></tuv>
+       </tu>
+       <tu tuid='Accept daily bonus'>
+           <tuv xml:lang="en"><seg>Accept daily bonus. &#40;Automatically handling of accepting the daily bonus.&#41;</seg></tuv>
+       </tu>
+       <tu tuid='Trains'>
+           <tuv xml:lang="en"><seg>Trains</seg></tuv>
+       </tu>
+       <tu tuid='Trains_helptext'>
+           <tuv xml:lang="en"><seg>Automatically handling of receiving and sending trains.</seg></tuv>
+       </tu>
+       <tu tuid='Stop collecting trains'>
+           <tuv xml:lang="en"><seg>Stop collecting trains if total goods is 90% full.</seg></tuv>
+       </tu>
+       <tu tuid='handle incomming trains'>
+           <tuv xml:lang="en"><seg>handle (add goods) incomming trains</seg></tuv>
+       </tu>
+       <tu tuid='Send train'>
+           <tuv xml:lang="en"><seg>Send train to get goods</seg></tuv>
+       </tu>
+       <tu tuid='ships_helptext'>
+           <tuv xml:lang="en"><seg>Automatically handling of receiving and sending ships. &#40;If you do not have ships yet, please add them to the game first.&#41;</seg></tuv>
+       </tu>
+       <tu tuid='Stop collecting ships'>
+           <tuv xml:lang="en"><seg>Stop collecting ships if total goods is 90% full.</seg></tuv>
+       </tu>
+       <tu tuid='handle incomming ships'>
+           <tuv xml:lang="en"><seg>handle (add goods) incomming ships</seg></tuv>
+       </tu>
+       <tu tuid='Send ships'>
+           <tuv xml:lang="en"><seg>Send ships to get goods</seg></tuv>
+       </tu>
+       <tu tuid=''>
+           <tuv xml:lang="en"><seg></seg></tuv>
+       </tu>
+       <tu tuid=''>
+           <tuv xml:lang="en"><seg></seg></tuv>
+       </tu>
+       <tu tuid=''>
+           <tuv xml:lang="en"><seg></seg></tuv>
+       </tu>
+       <tu tuid=''>
+           <tuv xml:lang="en"><seg></seg></tuv>
+       </tu>
+       <tu tuid=''>
+           <tuv xml:lang="en"><seg></seg></tuv>
+       </tu>
+       <tu tuid='Save settings'>
+           <tuv xml:lang="en"><seg>Save settings</seg></tuv>
+       </tu>
+       <tu tuid='GameUrl'>
+           <tuv xml:lang="en"><seg>GameUrl</seg></tuv>
+       </tu>
+       <tu tuid='Show tray msg'>
+           <tuv xml:lang="en"><seg>Show tray message</seg></tuv>
+       </tu>
+       <tu tuid='Show time in logs'>
+           <tuv xml:lang="en"><seg>Show time in logs</seg></tuv>
+       </tu>
+       <tu tuid='Bot restart interval (sec)'>
+           <tuv xml:lang="en"><seg>Bot restart interval (sec)</seg></tuv>
+       </tu>
+       <tu tuid='Show api exec in log'>
+           <tuv xml:lang="en"><seg>Show api exec in log</seg></tuv>
+       </tu>
+       <tu tuid='Choose timezone'>
+           <tuv xml:lang="en"><seg>Choose timezone</seg></tuv>
+       </tu>
+       <tu tuid='Choose language'>
+           <tuv xml:lang="en"><seg>Choose language</seg></tuv>
+       </tu>
+       <tu tuid='Proxy settings'>
+           <tuv xml:lang="en"><seg>Proxy settings</seg></tuv>
+       </tu>
+       <tu tuid='Use proxy'>
+           <tuv xml:lang="en"><seg>Use proxy</seg></tuv>
+       </tu>
+       <tu tuid='Host'>
+           <tuv xml:lang="en"><seg>Host</seg></tuv>
+       </tu>
+       <tu tuid='Port'>
+           <tuv xml:lang="en"><seg>Port</seg></tuv>
+       </tu>
+       <tu tuid='User'>
+           <tuv xml:lang="en"><seg>User</seg></tuv>
+       </tu>
+       <tu tuid='Password'>
+           <tuv xml:lang="en"><seg>Password</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="en"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="en"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="en"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="en"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='en'>
+           <tuv xml:lang="en"><seg>English</seg></tuv>
+       </tu>
+       <tu tuid='de'>
+           <tuv xml:lang="en"><seg>Deutsch</seg></tuv>
+       </tu>
+       <tu tuid='es'>
+           <tuv xml:lang="en"><seg>Español</seg></tuv>
+       </tu>
+       <tu tuid='fr'>
+           <tuv xml:lang="en"><seg>Français</seg></tuv>
+       </tu>
+       <tu tuid='tr'>
+           <tuv xml:lang="en"><seg>Türkçe</seg></tuv>
+       </tu>
+       <tu tuid='it'>
+           <tuv xml:lang="en"><seg>Italiano</seg></tuv>
+       </tu>
+       <tu tuid='pt'>
+           <tuv xml:lang="en"><seg>Português</seg></tuv>
+       </tu>
+       <tu tuid='nl'>
+           <tuv xml:lang="en"><seg>Nederlands</seg></tuv>
+       </tu>
+       <tu tuid='da'>
+           <tuv xml:lang="en"><seg>Dansk</seg></tuv>
+       </tu>
+       <tu tuid='nb'>
+           <tuv xml:lang="en"><seg>Norsk</seg></tuv>
+       </tu>
+       <tu tuid='pl'>
+           <tuv xml:lang="en"><seg>Polski</seg></tuv>
+       </tu>
+       <tu tuid='Collect Landmarks'>
+           <tuv xml:lang="en"><seg>Collect Landmarks</seg></tuv>
+       </tu>
+       <tu tuid='Collect Municipal Buildings'>
+           <tuv xml:lang="en"><seg>Collect Municipal Buildings</seg></tuv>
+       </tu>
+       <tu tuid='Clear Wildernes'>
+           <tuv xml:lang="en"><seg>Clear Wildernes &#40;cut trees&#38; </seg></tuv>
+       </tu>
+   </body>
+</tmx>

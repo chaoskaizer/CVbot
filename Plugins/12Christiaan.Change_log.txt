@@ -1,0 +1,173 @@
+Publish version 028
+2011-02-08	Added item name in collection landmark etc. [ from sugestions ]
+2011-02-08	You can now sellect the business that need to be collected. (save energy) [ Buildings v0.9 ] 
+2011-02-07	Neighbors, removed "any" from the franchise items. you have to sellect the franchise yourselfs.
+2011-02-07	Upgrade ? DELETE the .sqlite files from Profile folder. Then start the bot !!!
+2011-02-07	Multi Sending gift: Better logging.
+2011-02-07	Multi Sending gift: Allow up to 3 faults befor giving up. [Multi Version 0.7 ]
+
+
+Publish version 027
+2011-02-06	Build franchise in Neighbor city. [neighbor v 0.7]
+2011-02-06	Added streakBonus when visiting neighbors (and doing actions) [ botclass ]
+2011-02-06	Added streakBonus when accepting work from neighbors. [ botclass ]
+2011-02-06	Added streakBonus withered crops. [ botclass ]
+2011-02-06	Option in Settings to sellect the level of streakBonus to be found. Can also be disabled.
+
+
+Publish version 026
+2011-02-05	Fixed: foreach() on line 729
+2011-02-05	Added streakBonus3 into Neighbor plugin. [Neighbor v 0.6]
+2011-02-05	Multi: you can change your city name (thx to phreaker ) [Multi v 0.6]
+2011-02-05	Added extra files, to be compatible with older BOT's
+
+Publish version 025
+2011-02-05	Multi: Sending gifts from inventory works again. ( curl dll can be removed. )
+2011-02-05	Extra log on colectables found while running bot. ( config via botclass )
+2011-02-05	Fixes in botclass
+2011-02-05	Buildings: Collect Landmarks [ Buildings v0.8 ]
+2011-02-05	Buildings: Collect Municipal Buildings [ Buildings v0.8 ]
+2011-02-05	Buildings: Clear Wildernes = cut trees [ Buildings v0.8 ]
+2011-02-05	Collecting streakBonus everyware (No need to run edited versions) [ streakBonus3 ] config via botclass
+2011-02-05	streakBonus2 removed
+
+
+Publish version 024
+2011-01-31	Multi: Sending inventory items to neighbors. So you can manage the max 2000 inventory items.
+2011-01-31	Nice to send items from dummy account to your own.
+
+Publish version 023
+2011-01-26	BotClass & localdata change to find you neighbors correctly.
+2011-01-26	Fix: Neighbor plugin. (empty N list)
+2011-01-26	Fix: Energy Plugin. Fix for Error 002 (Energy)
+2011-01-26	Added in Multi a overview of you Neighbors.
+
+Publish version 022
+2011-01-24	Energy: Version 1.0 released.
+2011-01-24	Energy: Added a import file with 10000 options (see tmp_dir)
+2011-01-24	Energy: Able to import the Energy database
+2011-01-24	Energy: Able to clear the Energy database (not recomanded)
+2011-01-24	Energy: Able to backup the Energy database
+2011-01-24	Energy: Preventing the 0 options error, now adding automaticly. no need to visit Neighbors first.
+
+Publish version 021
+2011-01-22	Energy: update to find energy quicker. mist file it in 020.
+
+Publish version 020
+2011-01-22	FIX for AMFPHP_RUNTIME_ERROR implemented. (Bot run already for 3 hour with out AMFPHP_RUNTIME_ERROR )
+2011-01-22	Fix for coin2 & forum, not able to de-activate the plugin.
+2011-01-22	Installation will deactivate "collection plugin", there this is now in multi.
+2011-01-22	Energy plugin: small fixes. [Energy v 0.9]
+2011-01-22	Buildings plugin: translation support added. [Buildings v0.7]
+2011-01-22	Multi plugin. several fixes [Multi v 0.5]
+
+
+Publish version 018
+2011-01-21	Added BOT fix from fortunes.  NICE JOB.
+2011-01-21	Added translation support (only in settings for now)
+2011-01-21	req: ship missions does not save and keeps reverting to the first list item (San Francisco).
+2011-01-20	Multi collection overview -> now also create a <uid>-Collection.txt file in the tmp-dir folder (user request)
+2011-01-20	Multi collection overview -> added the amount of items & images.
+Publish version 017
+2011-01-18	Fix: Neighbor list not showing in neighbors plugin.
+2011-01-18	Fix: when seting Image reset, it does it all the time.
+2011-01-18	new request: stop harvesting when storage gets to 90%.
+
+Publish version 016
+2011-01-16	Working on translation module (not finisched).
+2011-01-16	Inventory overview now also create a <uid>-Inventory.txt file in the tmp-dir folder (user request)
+2011-01-15	Fixed: Image reset was not working correctly.
+2011-01-15	Multi collection: set the amount of collections to keep, trade-in the rest.
+2011-01-14	Javascript error fixed.
+2011-01-14	Bug report: Image download not working with proxy settings.
+
+Publish version 015
+2011-01-14	Added functions for 92% stuck acounts. (world has moved)
+2011-01-11	New sub project .. will be release soon .. keep it secret for now.
+2011-01-10	Better detection SQLITE errors.
+2011-01-10	building inventory for other items than energy, not finisched.
+
+2011-01-09	Multi images: show latest image in correct order (only 20)
+2011-01-09	Neighbors: You can now set the amount of neighbors to visit per cycle. [Neighbors V0.5]
+2011-01-09	Neighbors: When it stops in the middle, it will contineu the next bot cycle. [Neighbors V0.5]
+		Publish version 014
+2011-01-08	Added compatibility for "Plugin Special Unreleased"
+2011-01-08	Show Latest items in multi plugin. you can see there the items that are new (unreleased).
+2011-01-08	Energy multiple update & not visiting NN for 15 days (was 5)
+2011-01-08	Plugin Versions into the datebase. (Multi, building, Crop, Energy)
+2011-01-08	Image added to Wish List.
+2011-01-07	Images added to: Multi goods, Crops, buildings.
+2011-01-07	Downloading icon images from the server. (can take some time for the first run)
+		It needs ot download more than 450 images and it is about 2,3Mb total.
+		Publish version 013
+2011-01-05	Give error "DATABASE IS LOCKED" some extra information on the screen.
+2011-01-05	Multi: added overview of collections
+2011-01-05	Multi: move inventory to user in menu
+2011-01-04	Multi: fill goods, you can pick your own crop (for collections).
+2011-01-04	Added better help text to some plugin.
+2011-01-04	Added collors to the plugins.
+		Publish version 012
+2011-01-04	General: in log show Coins & Goods & Energy when updated from server.
+2011-01-04	Neighbors work is now accepted before doing other work. (save energy)
+2011-01-04	Energy: make max energy box availible. (not hardcoded, sorry for the error in 011) [Energy 0.7]
+2011-01-03	New request. Do not accept N work on first run. [done]
+2011-01-03	New request. accept N work before own actions.  [done]
+		Publish version 011
+2011-01-03	Multi: Added under franchise, collection of daily bonus for every HQ. [multi 0.2]
+2011-01-03	Multi: Added under inventory the option to fill the goods, before & after doing work.
+2011-01-02	Energy: now you can also find enery every cycle. [Energy 0.6]
+2011-01-02	Energy: included timer into the energy (max time to find energy). [Energy 0.6]
+2011-01-01	Fix for goods with trains & ships (thx tehaon).
+2011-01-01	Buildings: make business building directly ready before supplying. [buildings 0.5]
+2011-01-01	Buildings: make business building directly ready after supplying. [buildings 0.5]
+2011-01-01	Show current goods & Maximum goods with bot start.
+2011-01-01	Happy new year.
+2011-01-01	Publish version 010
+2010-12-31	Multi: Neighbors: Neighbors Lot site. Direct link to you Neighbors fransice open space.
+2010-12-31	Multi: Wish list: put items on you Wish list (and keep them there)
+2010-12-31	Multi: Inventory: overview (see what is in your inventory)
+2010-12-31	Multi: Inventory: use of Energy from inventory
+2010-12-31	Multi: added User info
+2010-12-31	new request work in progress: Supply Franchises
+2010-12-31	new request work in progress: visit xx N / bot cycle.
+2010-12-31	new request work in progress: stop visit N when goods are full.
+2010-12-30	Created the Multi Plug-in. This plugin will be used for all kinds off enhancements.
+2010-12-30	Show goods in Gameinfo (Storage capacity & current amount of goods.)
+		Publish version 009
+2010-12-28 Added removal of Withered crops [Crops v0.3]
+2010-12-28 Preperations for Inventory Plugin (database creation etc).
+2010-12-28 Update to Neighbors plugin to store energy options. [Neighbors v0.4]
+2010-12-28 Accept Neighbors help. [Neighbors v0.4]
+2010-12-28 Preperations for multi lang support.
+2010-12-27 Added goods_pier to be counted in the total storage goods. It was missing.
+2010-12-27 Collecting daily bonus added in buildings. [Buildings v0.4]
+2010-12-27 Energy update to prevent loops. [Energy v0.6]
+2010-12-27 Added instant grow (Harvest withing 5 Sec.) [Crops v0.3]
+2010-12-26 < Error fixes + PHP ERROR does not lock the bot, but restart. [Core BOT]
+2010-12-26 < Under buildings, you can select sending and receiving ships.
+2010-12-26 < Under buildings, you can select sending and receiving trains. (based on trains v0.1 from benni16)
+2010-12-26 < Under buildings, you can select to stop recieving trains or ships when goods storage is 90% full. 
+
+2010-12 File 007 => Energy plug-in Updated to version 0.4. quicker finding more energy.
+      Please note that if you where looking for energy in the last 24 hours, it can take a long time before you find energy again.
+      This version remembers where it looked for energy, so i will not try same location 2nd time.
+      Meaning that this plug-in works optimal after 24 hours. So, please remember this, before starting to complain.
+2010-12 File 008 => Ships in the buildings plug-in.
+2010-12 File 008 => Detection if goods storage is full.
+2010-12 File 008 => quicker energy.
+2010-12 File 006 => Trains in the buildings plug-in.
+2010-12 File 005 => general: now shows the correct version numbers.
+2010-12 File 005 => Neighbor plug-in Version 0.3
+2010-12 File 005 => Energy finder Version 0.3 : now uses Database to store energy info.
+2010-12 File 005 => Unlimited Coins Version 0.3 : better logging + screen changes
+2010-12 File 005 => Update to database; many
+2010-12 File 04 => Neighbor plug-in Version 0.2 On the bottom of the page it will show the neighbor that have a open place for your busniss
+2010-12 File 04 => Energy finder Version 0.2
+2010-12 File 04 => Unlimited Coins Version 0.2 (missing file now in this file.)
+2010-12 File 04 => Update to database; save the database took > 1 minute, now few seconds.
+2010-12 File 03 => Neighbor plug-in Version 0.2 (better log file)
+2010-12 File 03 => Energy finder Version 0.2 (better speed finding energy + better log file)
+2010-12 File 03 => Unlimited Coins Version 0.2 (more coins in 1 run, the max coins / run = your level * 1.5 * 55 * 8. so if you are level File 03 => Update to database; save the database took > 1 minute, now few seconds.
+2010-12 File 02 => Neighbor plug-in Version 0.1 + energy finder Version 0.1
+2010-12 File 01 => Neighbor plug-in Version 0.1 
+

@@ -1,0 +1,5 @@
+version=0.01
+author=12christiaan
+descr=Plugin to sell items from city (for example when your city is broken)
+link=http://www.allbots.org/forum/
+

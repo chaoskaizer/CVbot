@@ -1,0 +1,4 @@
+version=0.01
+author=Admin
+descr=Using this plugin you can change several bot settings
+link=

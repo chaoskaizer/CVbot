@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+   <header creationtoolversion="1.0.0" datatype="winres" segtype="sentence"
+           adminlang="en" srclang="en" o-tmf="abc"
+           creationtool="manual" >
+   </header>
+   <body>
+       <tu tuid='Version'>
+           <tuv xml:lang="el_GR"><seg>Εκδοση</seg></tuv>
+       </tu>
+       <tu tuid='Buildings'>
+           <tuv xml:lang="el_GR"><seg> &#40;by 12Christiaan&#41;</seg></tuv>
+       </tu>
+       <tu tuid='Collect rent'>
+           <tuv xml:lang="el_GR"><seg>Να μαζεψει ενοικιο απο τα σπιτια</seg></tuv>
+       </tu>
+       <tu tuid='Collect business buildings'>
+           <tuv xml:lang="el_GR"><seg>Να μαζεψει ενοικιο απο τις επιχειρησεις</seg></tuv>
+       </tu>
+       <tu tuid='Supply business buildings'>
+           <tuv xml:lang="el_GR"><seg>Να εφοδιασει τις επιχειρησεις</seg></tuv>
+       </tu>
+       <tu tuid='Make business building instant ready'>
+           <tuv xml:lang="el_GR"><seg>Να φτιαξει τις επιχειρησεις ετοιμες?&#40;Πριν το μαζεψα &#38; Μετα το μαζεμα&#41;</seg></tuv>
+       </tu>
+       <tu tuid='Accept daily bonus'>
+           <tuv xml:lang="el_GR"><seg>Δεξου ημερησιως ποντους. &#40;Αυτοματος χειρισμος της αποδοχης ποντων.&#41;</seg></tuv>
+       </tu>
+       <tu tuid='Trains'>
+           <tuv xml:lang="el_GR"><seg>Τρενα</seg></tuv>
+       </tu>
+       <tu tuid='Trains_helptext'>
+           <tuv xml:lang="el_GR"><seg>Αυτοματος χειρισμος της υποδοχης και σταλμενων τρενων.</seg></tuv>
+       </tu>
+       <tu tuid='Stop collecting trains'>
+           <tuv xml:lang="el_GR"><seg>Σταματα να μαζευεις τρενα οταν το τελικο των κουτιων ειναι 90% γεματο.</seg></tuv>
+       </tu>
+       <tu tuid='handle incomming trains'>
+           <tuv xml:lang="el_GR"><seg>Χειρισμος (προσθηκη κουτιων) ερχομενων τρενων.</seg></tuv>
+		          </tu>
+       <tu tuid='Send train'>
+           <tuv xml:lang="el_GR"><seg>Στειλε τρενα για να παρεις κουτια</seg></tuv>
+       </tu>
+       <tu tuid='ships_helptext'>
+           <tuv xml:lang="el_GR"><seg>Αυτοματος χειρισμος της υποδοχης και σταλμενων καραβιων. &#40;Αμα δεν εχεις ακομα καραβια, παρακαλω προσθεσε στο παιχνιδι πρωτα.&#41;</seg></tuv>
+       </tu>
+       <tu tuid='Stop collecting ships'>
+           <tuv xml:lang="el_GR"><seg>Σταματα να μαζευεις καραβια οταν το τελικο των κουτιων ειναι 90% γεματο.</seg></tuv>
+       </tu>
+       <tu tuid='handle incomming ships'>
+           <tuv xml:lang="el_GR"><seg>Χειρισμος (προσθηκη κουτιων) ερχομενων καραβιων.</seg></tuv>
+       </tu>
+       <tu tuid='Send ships'>
+           <tuv xml:lang="el_GR"><seg>Στειλε καραβια για να παρεις κουτια</seg></tuv>
+       </tu>
+       <tu tuid=''>
+           <tuv xml:lang="el_GR"><seg></seg></tuv>
+       </tu>
+       <tu tuid=''>
+           <tuv xml:lang="el_GR"><seg></seg></tuv>
+       </tu>
+       <tu tuid=''>
+           <tuv xml:lang="el_GR"><seg></seg></tuv>
+       </tu>
+       <tu tuid=''>
+           <tuv xml:lang="el_GR"><seg></seg></tuv>
+       </tu>
+       <tu tuid=''>
+           <tuv xml:lang="el_GR"><seg></seg></tuv>
+       </tu>
+       <tu tuid='Save settings'>
+           <tuv xml:lang="el_GR"><seg>Save settings</seg></tuv>
+       </tu>
+       <tu tuid='GameUrl'>
+           <tuv xml:lang="el_GR"><seg>GameUrl</seg></tuv>
+       </tu>
+       <tu tuid='Show tray msg'>
+           <tuv xml:lang="el_GR"><seg>Show tray message</seg></tuv>
+       </tu>
+       <tu tuid='Show time in logs'>
+           <tuv xml:lang="el_GR"><seg>Show time in logs</seg></tuv>
+       </tu>
+       <tu tuid='Bot restart interval (sec)'>
+           <tuv xml:lang="el_GR"><seg>Bot restart interval (sec)</seg></tuv>
+       </tu>
+       <tu tuid='Show api exec in log'>
+           <tuv xml:lang="el_GR"><seg>Show api exec in log</seg></tuv>
+       </tu>
+       <tu tuid='Choose timezone'>
+           <tuv xml:lang="el_GR"><seg>Choose timezone</seg></tuv>
+       </tu>
+       <tu tuid='Choose language'>
+           <tuv xml:lang="el_GR"><seg>Choose language</seg></tuv>
+       </tu>
+       <tu tuid='Proxy settings'>
+           <tuv xml:lang="el_GR"><seg>Proxy settings</seg></tuv>
+       </tu>
+       <tu tuid='Use proxy'>
+           <tuv xml:lang="el_GR"><seg>Use proxy</seg></tuv>
+       </tu>
+       <tu tuid='Host'>
+           <tuv xml:lang="el_GR"><seg>Host</seg></tuv>
+       </tu>
+       <tu tuid='Port'>
+           <tuv xml:lang="el_GR"><seg>Port</seg></tuv>
+       </tu>
+       <tu tuid='User'>
+           <tuv xml:lang="el_GR"><seg>User</seg></tuv>
+       </tu>
+       <tu tuid='Password'>
+           <tuv xml:lang="el_GR"><seg>Password</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="el_GR"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="el_GR"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="el_GR"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="el_GR"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='en'>
+           <tuv xml:lang="el_GR"><seg>English</seg></tuv>
+       </tu>
+       <tu tuid='de'>
+           <tuv xml:lang="el_GR"><seg>Deutsch</seg></tuv>
+       </tu>
+       <tu tuid='es'>
+           <tuv xml:lang="el_GR"><seg>Español</seg></tuv>
+       </tu>
+       <tu tuid='fr'>
+           <tuv xml:lang="el_GR"><seg>Français</seg></tuv>
+       </tu>
+       <tu tuid='tr'>
+           <tuv xml:lang="el_GR"><seg>Türkçe</seg></tuv>
+       </tu>
+       <tu tuid='it'>
+           <tuv xml:lang="el_GR"><seg>Italiano</seg></tuv>
+       </tu>
+       <tu tuid='pt'>
+           <tuv xml:lang="el_GR"><seg>Português</seg></tuv>
+       </tu>
+       <tu tuid='nl'>
+           <tuv xml:lang="el_GR"><seg>Nederlands</seg></tuv>
+       </tu>
+       <tu tuid='da'>
+           <tuv xml:lang="el_GR"><seg>Dansk</seg></tuv>
+       </tu>
+       <tu tuid='nb'>
+           <tuv xml:lang="el_GR"><seg>Norsk</seg></tuv>
+       </tu>
+       <tu tuid='pl'>
+           <tuv xml:lang="el_GR"><seg>Polski</seg></tuv>
+       </tu>
+   </body>
+</tmx>

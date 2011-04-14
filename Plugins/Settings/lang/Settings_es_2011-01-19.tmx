@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4"><header creationtool="net.sf.okapi.steps.leveraging.LeveragingStep" creationtoolversion="" segtype="sentence" o-tmf="undefined" adminlang="en" srclang="en" datatype="undefined"></header><body>
+<tu tuid="Settings">
+<tuv xml:lang="es" creationid="MT!"><seg>Configuración</seg></tuv>
+</tu>
+<tu tuid="Save settings">
+<tuv xml:lang="es" creationid="MT!"><seg>Guardar configuración</seg></tuv>
+</tu>
+<tu tuid="Version">
+<tuv xml:lang="es" creationid="MT!"><seg>Versión</seg></tuv>
+</tu>
+<tu tuid="GameUrl">
+<tuv xml:lang="es" creationid="MT!"><seg>GameUrl</seg></tuv>
+</tu>
+<tu tuid="Show tray msg">
+<tuv xml:lang="es" creationid="MT!"><seg>Mostrar mensaje de la bandeja</seg></tuv>
+</tu>
+<tu tuid="Show time in logs">
+<tuv xml:lang="es" creationid="MT!"><seg>Mostrar la hora en los registros</seg></tuv>
+</tu>
+<tu tuid="Bot restart interval (sec)">
+<tuv xml:lang="es" creationid="MT!"><seg>Motor de búsqueda intervalo de reinicio (s)</seg></tuv>
+</tu>
+<tu tuid="Show api exec in log">
+<tuv xml:lang="es" creationid="MT!"><seg>Mostrar api ejecutivo en el diario</seg></tuv>
+</tu>
+<tu tuid="Choose timezone">
+<tuv xml:lang="es" creationid="MT!"><seg>Elija la zona horaria</seg></tuv>
+</tu>
+<tu tuid="Choose language">
+<tuv xml:lang="es" creationid="MT!"><seg>Seleccione su idioma</seg></tuv>
+</tu>
+<tu tuid="Proxy settings">
+<tuv xml:lang="es" creationid="MT!"><seg>La configuración del proxy</seg></tuv>
+</tu>
+<tu tuid="Use proxy">
+<tuv xml:lang="es" creationid="MT!"><seg>Usar proxy</seg></tuv>
+</tu>
+<tu tuid="Host">
+<tuv xml:lang="es" creationid="MT!"><seg>Anfitrión</seg></tuv>
+</tu>
+<tu tuid="Port">
+<tuv xml:lang="es" creationid="MT!"><seg>Puerto</seg></tuv>
+</tu>
+<tu tuid="User">
+<tuv xml:lang="es" creationid="MT!"><seg>Usuario</seg></tuv>
+</tu>
+<tu tuid="Password">
+<tuv xml:lang="es" creationid="MT!"><seg>Contraseña</seg></tuv>
+</tu>
+<tu tuid="1">
+<tuv xml:lang="es" creationid="MT!"><seg>1</seg></tuv>
+</tu>
+<tu tuid="1">
+<tuv xml:lang="es" creationid="MT!"><seg>1</seg></tuv>
+</tu>
+<tu tuid="1">
+<tuv xml:lang="es" creationid="MT!"><seg>1</seg></tuv>
+</tu>
+<tu tuid="1">
+<tuv xml:lang="es" creationid="MT!"><seg>1</seg></tuv>
+</tu>
+<tu tuid="en">
+<tuv xml:lang="es" creationid="MT!"><seg>Inglés</seg></tuv>
+</tu>
+<tu tuid="de">
+<tuv xml:lang="es" creationid="MT!"><seg>Deutsch</seg></tuv>
+</tu>
+<tu tuid="es">
+<tuv xml:lang="es" creationid="MT!"><seg>Español</seg></tuv>
+</tu>
+<tu tuid="fr">
+<tuv xml:lang="es" creationid="MT!"><seg>English</seg></tuv>
+</tu>
+<tu tuid="tr">
+<tuv xml:lang="es" creationid="MT!"><seg>Türkçe</seg></tuv>
+</tu>
+<tu tuid="it">
+<tuv xml:lang="es" creationid="MT!"><seg>Italiano</seg></tuv>
+</tu>
+<tu tuid="pt">
+<tuv xml:lang="es" creationid="MT!"><seg>Português</seg></tuv>
+</tu>
+<tu tuid="nl">
+<tuv xml:lang="es" creationid="MT!"><seg>Nederlands</seg></tuv>
+</tu>
+<tu tuid="da">
+<tuv xml:lang="es" creationid="MT!"><seg>Dansk</seg></tuv>
+</tu>
+<tu tuid="nb">
+<tuv xml:lang="es" creationid="MT!"><seg>Norsk</seg></tuv>
+</tu>
+<tu tuid="pl">
+<tuv xml:lang="es" creationid="MT!"><seg>Polski</seg></tuv>
+</tu>
+</body>
+</tmx>

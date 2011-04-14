@@ -1,0 +1,3 @@
+version = 0.1
+author = 12christiaan
+descr = Get coins by collecting BB & streak bonus 

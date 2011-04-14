@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+<header creationtoolversion="1.0.0" datatype="winres" segtype="sentence" adminlang="en" srclang="en" o-tmf="abc" creationtool="manual" >   </header>
+   <body>
+       <tu tuid='Settings'>
+           <tuv xml:lang="en"><seg>Settings</seg></tuv>
+       </tu>
+       <tu tuid='Save settings'>
+           <tuv xml:lang="en"><seg>Save settings</seg></tuv>
+       </tu>
+       <tu tuid='Version'>
+           <tuv xml:lang="en"><seg>Version</seg></tuv>
+       </tu>
+       <tu tuid='GameUrl'>
+           <tuv xml:lang="en"><seg>GameUrl</seg></tuv>
+       </tu>
+       <tu tuid='Show tray msg'>
+           <tuv xml:lang="en"><seg>Show tray message</seg></tuv>
+       </tu>
+       <tu tuid='Show time in logs'>
+           <tuv xml:lang="en"><seg>Show time in logs</seg></tuv>
+       </tu>
+       <tu tuid='Bot restart interval (sec)'>
+           <tuv xml:lang="en"><seg>Bot restart interval (sec)</seg></tuv>
+       </tu>
+       <tu tuid='Show api exec in log'>
+           <tuv xml:lang="en"><seg>Show api exec in log</seg></tuv>
+       </tu>
+       <tu tuid='Choose timezone'>
+           <tuv xml:lang="en"><seg>Choose timezone</seg></tuv>
+       </tu>
+       <tu tuid='Choose language'>
+           <tuv xml:lang="en"><seg>Choose language</seg></tuv>
+       </tu>
+       <tu tuid='Proxy settings'>
+           <tuv xml:lang="en"><seg>Proxy settings</seg></tuv>
+       </tu>
+       <tu tuid='Use proxy'>
+           <tuv xml:lang="en"><seg>Use proxy</seg></tuv>
+       </tu>
+       <tu tuid='Host'>
+           <tuv xml:lang="en"><seg>Host</seg></tuv>
+       </tu>
+       <tu tuid='Port'>
+           <tuv xml:lang="en"><seg>Port</seg></tuv>
+       </tu>
+       <tu tuid='User'>
+           <tuv xml:lang="en"><seg>User</seg></tuv>
+       </tu>
+       <tu tuid='Password'>
+           <tuv xml:lang="en"><seg>Password</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="en"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="en"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="en"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='1'>
+           <tuv xml:lang="en"><seg>1</seg></tuv>
+       </tu>
+       <tu tuid='en'>
+           <tuv xml:lang="en"><seg>English</seg></tuv>
+       </tu>
+       <tu tuid='de'>
+           <tuv xml:lang="en"><seg>Deutsch</seg></tuv>
+       </tu>
+       <tu tuid='es'>
+           <tuv xml:lang="en"><seg>Español</seg></tuv>
+       </tu>
+       <tu tuid='fr'>
+           <tuv xml:lang="en"><seg>Français</seg></tuv>
+       </tu>
+       <tu tuid='tr'>
+           <tuv xml:lang="en"><seg>Türkçe</seg></tuv>
+       </tu>
+       <tu tuid='it'>
+           <tuv xml:lang="en"><seg>Italiano</seg></tuv>
+       </tu>
+       <tu tuid='pt'>
+           <tuv xml:lang="en"><seg>Português</seg></tuv>
+       </tu>
+       <tu tuid='nl'>
+           <tuv xml:lang="en"><seg>Nederlands</seg></tuv>
+       </tu>
+       <tu tuid='da'>
+           <tuv xml:lang="en"><seg>Dansk</seg></tuv>
+       </tu>
+       <tu tuid='nb'>
+           <tuv xml:lang="en"><seg>Norsk</seg></tuv>
+       </tu>
+       <tu tuid='pl'>
+           <tuv xml:lang="en"><seg>Polski</seg></tuv>
+       </tu>
+       <tu tuid='ru'>
+           <tuv xml:lang="en"><seg>Russian</seg></tuv>
+       </tu>
+       <tu tuid='el_GR'>
+           <tuv xml:lang="en"><seg>Greek</seg></tuv>
+       </tu>
+       <tu tuid='Streak Bonus'>
+           <tuv xml:lang="en"><seg>Collect Bonus clicks.</seg></tuv>
+       </tu>
+       <tu tuid='Maximum'>
+           <tuv xml:lang="en"><seg>Maximum.</seg></tuv>
+       </tu>
+       <tu tuid='Medium'>
+           <tuv xml:lang="en"><seg>Medium.</seg></tuv>
+       </tu>
+       <tu tuid='Average'>
+           <tuv xml:lang="en"><seg>Average.</seg></tuv>
+       </tu>
+       <tu tuid='Minimum'>
+           <tuv xml:lang="en"><seg>Minimum.</seg></tuv>
+       </tu>
+       <tu tuid='Do not collect'>
+           <tuv xml:lang="en"><seg>Do not collect extra coins.</seg></tuv>
+       </tu>
+   </body>
+</tmx>

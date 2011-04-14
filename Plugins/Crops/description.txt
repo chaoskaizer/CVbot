@@ -1,0 +1,5 @@
+version=0.02
+author=Admin (updated by 12christiaan)
+descr=Plugin for automatic seed crops and harvest
+link=
+

@@ -1,0 +1,11 @@
+0	General		dot
+1	Road		grey_dot
+2	CitySideWalk	citySideWalk_dot
+3	Business	business_dot
+4	Residence	residence_dot
+5	Decoration	decor_bot
+6	Plot		plot_dot
+7	Community	red_dot
+8	Train Station	black_dot
+9	HQ		hq_dot
+10	Storage & Pier	com_dot

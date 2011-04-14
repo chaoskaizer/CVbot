@@ -1,0 +1,5 @@
+version=0.03
+author=12christiaan
+descr=Plugin for work on the neighbors city
+link=http://www.allbots.org/forum/
+

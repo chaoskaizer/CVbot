@@ -1,0 +1,139 @@
+HTTP Retriever
+Version v1.1.10
+Copyright 2004-2007, Steve Blinch
+http://code.blitzaffe.com
+============================================================================
+
+DESCRIPTION
+
+Provides a pure-PHP implementation of an HTTP v1.1 client, including support
+for chunked transfer encoding and user agent spoofing.  Both GET and POST
+requests are supported.
+
+This can be used in place of something like CURL or WGET for HTTP requests.
+Native SSL (HTTPS) requests are also supported if the OpenSSL extension is
+installed under PHP v4.3.0 or greater.
+
+If native SSL support is not available, the class will also check for the
+CURL extension; if it's installed, it will transparently be used for SSL
+(HTTPS) requests.
+
+If neither native SSL support nor the CURL extension are available, and
+libcurlemu (a CURL emulation library available from our web site) is found,
+the class will also check for the CURL console binary (usually in
+/usr/bin/curl); if it's installed, it will transparently be used for SSL
+requests.
+
+In short, if it's possible to make an HTTP/HTTPS request from your server,
+this class can most likely do it.
+
+
+HISTORY
+
+1.1.10 (13-Feb-2007)
+- Fixed bug wherein libcurlemu may not be correctly included when
+needed.
+- Fixed bug wherein stream read timeouts may not be recognized
+- Adjusted timeout handling code to better handle timeout conditions
+- Added intelligent caching support
+- Caching is now better-handled for high-volume requests
+- Added postprocessing callback support
+- Improved redirect support
+- Fixed bug in which POST requests couldn't use GET-style query strings
+- Added header cleanup between requests
+- Added partial proxy support via $http->curl_proxy (only useable when
+$http->force_curl is TRUE; internal support not yet implemented)
+
+
+1.1.9 (11-Oct-2006)
+- Added set_transfer_display() and default_transfer_callback()
+methods for transfer progress tracking
+- Suppressed possible "fatal protocol error" when remote SSL server
+closes the connection early
+- Added get_content_type() method
+- make_query_string() now handles arrays
+
+1.1.8 (19-Jun-2006)
+- Added set_progress_display() and default_progress_callback()
+methods for debug output
+- Added support for relative URLs in HTTP redirects
+- Added cookie support (sending and receiving)
+- Numerous bug fixes
+
+1.1.7 (18-Apr-2006)
+- Added support for automatically following HTTP redirects
+- Added ::get_error() method to get any available error message (be
+it an HTTP result error or an internal/connection error)
+- Added ::cache_hit variable to determine whether the page was cached
+
+1.1.6 (04-Mar-2006)
+- Added stream_timeout class variable.
+- Added progress_callback class variable.
+- Added support for braindead servers that ignore Connection: close
+
+
+EXAMPLE
+
+// HTTPRetriever usage example
+require_once("class_HTTPRetriever.php");
+$http = &new HTTPRetriever();
+
+
+// Example GET request:
+// ----------------------------------------------------------------------------
+$keyword = "blitzaffe code"; // search Google for this keyword
+if (!$http->get("http://www.google.com/search?hl=en&q=%22".urlencode($keyword)."%22&btnG=Search&meta=")) {
+echo "HTTP request error: #{$http->result_code}: {$http->result_text}";
+return false;
+}
+echo "HTTP response headers:<br><pre>";
+var_dump($http->response_headers);
+echo "</pre><br>";
+
+echo "Page content:<br><pre>";
+echo $http->response;
+echo "</pre>";
+// ----------------------------------------------------------------------------
+
+
+// Example POST request:
+// ----------------------------------------------------------------------------
+$keyword = "blitzaffe code"; // search Google for this keyword
+$values = array(
+"hl"=>"en",
+"q"=>"%22".urlencode($keyword)."%22",
+"btnG"=>"Search",
+"meta"=>""
+);
+// Note: This example is just to demonstrate the POST equivalent of the GET
+// example above; running this script will return a 501 Not Implemented, as
+// Google does not support POST requests.
+if (!$http->post("http://www.google.com/search",$http->make_query_string($values))) {
+echo "HTTP request error: #{$http->result_code}: {$http->result_text}";
+return false;
+}
+echo "HTTP response headers:<br><pre>";
+var_dump($http->response_headers);
+echo "</pre><br>";
+
+echo "Page content:<br><pre>";
+echo $http->response;
+echo "</pre>";
+// ----------------------------------------------------------------------------
+
+
+LICENSE
+
+This script is free software; you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+
+This script is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+details.
+
+You should have received a copy of the GNU General Public License along
+with this script; if not, write to the Free Software Foundation, Inc.,
+59 Temple Place, Suite 330, Boston, MA  02111-1307  USA

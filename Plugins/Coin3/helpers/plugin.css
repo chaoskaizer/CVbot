@@ -1,0 +1,109 @@
+/* 
+  ------------------------------------
+  - CSS for City Ville Plugin's
+  ------------------------------------
+*/
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+	background-color: #F6CEF5;
+	margin: 24px 0;
+	padding: 0;
+}
+h1 {
+	color: #0B0B3B;
+	font-size: 15pt;
+	margin: 0 0 5px 10px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+h2 {
+	color: #0B0B3B;
+	font-size: 12pt;
+	margin: 0 0 0 10px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.zag{ font-size: 15pt;   font-weight: bold;        }
+.zag2{ font-size: 13pt; font-weight: bold;  width: 300px;    }
+#nsp{ width: 250px;  }
+#maint{ font-size: 10pt;  width: 600px; padding: 0px;  }
+#rcontent{  padding-left: 20px; }
+#treesIN, #treesIN2, #cropsIN, #animalIN, #debrisIN{ width: 400px; }
+.el{   float: left;  width: 6px;   height: 6px;
+       border-bottom: 1px solid white;      
+       border-right: 1px solid white;   cursor: pointer;
+       background-color: green;            }
+.crop{ background-color: red;            }
+.plot{    }
+.phover{ background-color: yellow;            }
+.error{ font-size: 9pt;  color: red;  }
+
+
+/* The standaard table */
+table,th,td { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        border:0px solid black; 
+        width: 100%; 
+   }
+
+/* The table with layout 1*/
+table.table1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+	border-width: 1px;
+	border-spacing: ;
+	border-style: solid;
+	border-color: blue;
+	border-collapse: separate;
+	background-color: white;
+        width: auto; 
+}
+table.table1 th {
+	border-width: 1px;
+	padding: 0px;
+	border-style: dotted;
+	border-color: black;
+	background-color: white;
+        font-weight: bold;
+        width: auto; 
+}
+table.table1 td {
+	border-width: 1px;
+	padding: 0px 1px 0px 1px;
+	border-style: dotted;
+	border-color: black;
+	background-color: white;
+	-moz-border-radius: ;
+        width: auto; 
+}
+
+/* The table with layout 2*/
+table.table2 {
+	border-width: 1px;
+	border-spacing: ;
+	border-style: solid;
+	border-color: blue;
+	border-collapse: collapse;
+	background-color: white;
+        width: auto; 
+}
+table.table2 th {
+	border-width: 1px;
+	padding: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+        font-weight: bold;
+        width: auto; 
+}
+table.table2 td {
+        text-align: center;
+	border-width: 1px;
+	padding: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+        width: auto; 
+}
