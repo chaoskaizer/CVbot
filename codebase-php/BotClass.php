@@ -322,11 +322,21 @@ class Bot {
            {
              if(isset($fobj['itemName']))
                {
-                 if($fobj['itemName'] == "storage_barn") {$totalStorageGoods = $totalStorageGoods + 415;}
-                 if($fobj['itemName'] == "storage_silo") {$totalStorageGoods = $totalStorageGoods + 100;}
-                 if($fobj['itemName'] == "storage_outskirtsfarm") {$totalStorageGoods = $totalStorageGoods + 485;}
-                 if($fobj['itemName'] == "storage_shack") {$totalStorageGoods = $totalStorageGoods + 1000;}
-                 if($fobj['itemName'] == "goods_pier") {$totalStorageGoods = $totalStorageGoods + 420;}
+					$cv_storage_type = array(
+						'storage_barn'=> 415,
+						'storage_silo'=> 100,
+						'storage_outskirtsfarm'=> 485,
+						'storage_shack'=> 1000,
+						'goods_pier'=> 420,
+						'storage_grain_elevator' => 700, // Zynga update on March 2011 @Cybuster
+						'storage_grainsilo' => 150 // Zynga update on March 2011 @Cybuster
+					);
+									
+					foreach($cv_storage_type as $sname =>$sval){
+						if ( $fobj['itemName'] == $sname ) { 
+							$totalStorageGoods = $totalStorageGoods + $sval; 
+						}
+					}
                }
            }
         }
