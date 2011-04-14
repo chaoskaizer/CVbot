@@ -1,0 +1,17 @@
+version=1.58beta
+sLoadUrl=http://apps.facebook.com/cityville/flash.php
+TrayMsg=1
+iRestartTimeSec=10
+LogPanelWidth=702
+sRestPage=about:blank
+iParamsLoadTimeoutSec=1200
+iShowApiInLog=1
+iProxyUse=0
+sProxyUser=
+sProxyHost=
+sProxyPass=
+iProxyPort=8888
+Time2Log=0
+sTimeZone=Asia/Kuala_Lumpur
+language=en
+steakbonus=1
