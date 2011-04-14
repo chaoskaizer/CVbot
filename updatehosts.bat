@@ -1,0 +1,5 @@
+REM DISABLED ALLBOTS.ORG THAT ANNOYING ADS 
+REM THIS WILL THROW SOCKET ERROR, JUST IGNORE IT. RUN ONCE ONLY
+
+echo 127.0.0.1		www.allbots.com>>%WINDIR%\System32\drivers\etc\hosts
+ipconfig /flushdns
