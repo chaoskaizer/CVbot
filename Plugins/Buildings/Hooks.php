@@ -36,6 +36,24 @@ function Rent($bot) {
               }
         }
     }
+	/**
+	*	Collect Landmarks 
+	*/
+    //==========================================================================
+    if (isset($data->collectLM)) {
+        if ($data->collectLM == "1") {
+            $reload = 0;
+            $bot->SendMsg('Collecting Landmarks starting');
+            foreach ($bot->fobjects as $obj) {
+                if (($obj["className"] == "Landmark") && ($obj["state"] == "grown")) {
+                    $bot->harvest($obj);
+                    $reload++;
+                }
+                if (isset($bot->error_msg)) { $bot->ReloadConfig();  break; }
+            }
+          if($reload > 1) $bot->ReloadConfig();
+        }
+    }	
     //==========================================================================
     if (isset($data->collectrent)) {
         if ($data->collectrent == "1")
@@ -83,21 +101,6 @@ function Rent($bot) {
                 if (($obj["className"] == "Business") && ($obj["state"] == "closedHarvestable") && in_array($obj["itemName"], $data->collectbbIN))
                 {
                     $bot->collectBB($obj);
-                    $reload++;
-                }
-                if (isset($bot->error_msg)) { $bot->ReloadConfig();  break; }
-            }
-          if($reload > 1) $bot->ReloadConfig();
-        }
-    }
-    //==========================================================================
-    if (isset($data->collectLM)) {
-        if ($data->collectLM == "1") {
-            $reload = 0;
-            $bot->SendMsg('Collecting Landmarks starting');
-            foreach ($bot->fobjects as $obj) {
-                if (($obj["className"] == "Landmark") && ($obj["state"] == "grown")) {
-                    $bot->harvest($obj);
                     $reload++;
                 }
                 if (isset($bot->error_msg)) { $bot->ReloadConfig();  break; }
