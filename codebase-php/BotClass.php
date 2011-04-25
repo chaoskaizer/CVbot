@@ -331,12 +331,13 @@ class Bot {
 						'storage_grain_elevator' => 700, // Zynga update on March 2011 @Cybuster
 						'storage_grainsilo' => 150 // Zynga update on March 2011 @Cybuster
 					);
-									
-					foreach($cv_storage_type as $sname =>$sval){
-						if ( $fobj['itemName'] == $sname ) { 
-							$totalStorageGoods = $totalStorageGoods + $sval; 
-						}
-					}
+					
+                    if (array_key_exists($fobj['itemName'], $cv_storage_type))
+                    {                     
+                        $key = (string) $fobj['itemName'];
+                        $totalStorageGoods = $totalStorageGoods + $cv_storage_type[$key];
+                        
+                    }
                }
            }
         }
